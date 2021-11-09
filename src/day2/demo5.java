@@ -3,13 +3,14 @@ package day2;
 class demo6{
 	private int a=982255;
 	private String b="I am Ironman..!";
-	private char c='g';
+	private String p="Private data";
 	
-	public char getC() {
-		return c;
+	public String getp(){
+		return p;
 	}
-	public void setC(char c) {
-		this.c = c;
+	
+	public void setp(String p){
+		this.p=p;
 	}
 	public String getb() {
 		return b;
@@ -17,8 +18,7 @@ class demo6{
 	public int geta() {
 		return a;
 	}
-	
-	
+		
 	public void seta(int a) {
 		this.a=a;
 	}
@@ -43,7 +43,7 @@ public static void main(String[] args) {
 	System.out.println(no);
 	System.out.println(name);
 	System.out.println(d.getC());
-	
+	System.out.println(d.getp());
 	
 	
 	
