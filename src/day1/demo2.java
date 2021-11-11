@@ -1,7 +1,7 @@
 package day1;
 
 public class demo2 {
-	
+	//cons.
 	
 	public demo2(){
 		System.out.println("default cons. calling");
@@ -23,7 +23,7 @@ public class demo2 {
 		
 		demo2 b=new demo2("java");
 		System.out.println("===========");
-		demo2 c=new demo2(20);
+		demo2 c=new demo2();
 		
 		
 		
