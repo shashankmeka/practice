@@ -5,10 +5,9 @@ import org.openqa.selenium.WebElement;
 
 public class demo1 extends baseclass{
 	public static void main(String[] args) throws InterruptedException {
-		setup();	
+		setup("http://facebook.com");	
 //		driver.get("http://facebook.com");
 		
-		driver.navigate().to("http://facebook.com");
 		
 		WebElement wb=driver.findElement(By.id("email"));
 		WebElement wb1=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div[1]/h2"));
