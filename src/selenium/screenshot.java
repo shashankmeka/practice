@@ -14,6 +14,7 @@ public class screenshot extends baseclass {
 		setup("http://flipkart.com");
 		
 		/*
+		 
 			takescreenshot it is interface present in selenium webdriver
 
 		*/

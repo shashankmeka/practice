@@ -18,9 +18,9 @@ public class demo2 {
 		}
 		
 
-		catch(Exception e) {
-			
-		}
+//		catch(Exception e) {
+//			
+//		}
 		//nested block
 		
 		try {
@@ -31,7 +31,7 @@ public class demo2 {
 				
 				//prob. 2
 			}
-			catch() {
+			catch(Exception e) {
 				
 			}
 			
