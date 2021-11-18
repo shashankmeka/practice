@@ -5,7 +5,9 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class htmltable extends Initialmethod{
+import selenium.baseclass;
+
+public class htmltable extends baseclass{
 	public static WebElement table;
 	
 	
@@ -59,8 +61,7 @@ public class htmltable extends Initialmethod{
 	
 	
 	public static void main(String[] args) {
-		setup();
-		driver.get("file:///C:/Users/admin/Desktop/Software%20Testing/html%20cods/table.html");
+		setup("file:///C:/Users/admin/Desktop/Software%20Testing/html%20cods/table.html");
 		
 		
 		//create instance of table		

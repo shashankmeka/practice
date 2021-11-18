@@ -8,15 +8,14 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import multiplewindow.Initialmethod;
+import selenium.baseclass;
 
-public class demo1 extends Initialmethod{
+public class demo1 extends baseclass{
 public static void main(String[] args) {
-	setup();
+	setup("https://www.facebook.com");
 //	Dimension d=new Dimension(1000,500);
 //	driver.manage().window().setSize(d);
 	
-	driver.get("https://www.facebook.com");
 	
 	TakesScreenshot ts=(TakesScreenshot)driver;
 	File source=ts.getScreenshotAs(OutputType.FILE);
